@@ -1,13 +1,25 @@
-streamlit==1.39.0
-firebase-admin==6.5.0
-pandas==2.2.0
-openpyxl==3.1.2
-Pillow==10.2.0
-plotly==5.18.0
-bcrypt==4.1.2
+# Streamlit Framework
+streamlit==1.31.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+
+# Web Scraping
 requests==2.31.0
 beautifulsoup4==4.12.3
 lxml==5.1.0
-python-dotenv==1.0.0
+
+# Excel Export
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# PDF Export
 reportlab==4.0.9
 
+# Authentication & Security
+python-dotenv==1.0.0
+bcrypt==4.1.2
+
+# Utilities
+python-dateutil==2.8.2
